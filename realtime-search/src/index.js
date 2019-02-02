@@ -1,6 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './css/index.css';
-import App from './App';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import './index.css';
+import RealtimeSearch from './01-realtime-search/App';
+
+const routing = (
+    <Router>
+        <div>
+            <ul>
+                <li className="nav-link"><Link to="/">Home</Link></li>
+                <li className="nav-link"><Link to="/01">01 Realtime Search</Link></li>
+            </ul>
+            <Route exact path="/01" component={RealtimeSearch} />
+        </div>
+    </Router>
+)
+
+ReactDOM.render(routing, document.getElementById('root'));

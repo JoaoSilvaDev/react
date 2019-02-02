@@ -15,11 +15,12 @@
   padding: 10px;
   line-height: 25px;
 
-  background: #272727;
+  background: var(--panel);
   
   text-align: left;
 }
 
 .list-item {
   list-style-type: none;
+  color: var(--text);
 }
