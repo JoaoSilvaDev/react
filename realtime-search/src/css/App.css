@@ -1,0 +1,21 @@
+.app {
+  text-align: center; 
+}
+
+.search-bar {
+  width: 300px;
+}
+
+.list {
+  width: 300px;
+  margin: 2% auto;
+  padding: 10px;
+
+  background: #353535;
+  
+  text-align: left;
+}
+
+.list-item {
+  list-style-type: none;
+}
