@@ -33,3 +33,7 @@ Read this:
 _**2/2/19**_
 
 Built a realtime search bar that filters an array of strings
+
+Read [Getting started with React Router](https://codeburst.io/getting-started-with-react-router-5c978f70df91)
+
+Built a homepage to host my projects
