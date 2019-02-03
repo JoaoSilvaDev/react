@@ -47,6 +47,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
+        <h1>Realtime Search</h1>
         <input type="text" value={this.state.searchInput} onChange={this.handleChange.bind(this)} className="search-bar"/>
         {this.GetList()}
       </div>
