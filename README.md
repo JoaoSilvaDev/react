@@ -35,6 +35,7 @@ Built a realtime search bar that filters an array of strings
 Read [Getting started with React Router](https://codeburst.io/getting-started-with-react-router-5c978f70df91)
 
 Built a homepage to host my projects
+
 Built a simple Open Weather API app that display the weather in Lisbon.
 
 Read [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
