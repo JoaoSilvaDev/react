@@ -36,8 +36,8 @@ class App extends Component {
           <div>
              <p className="cityName">{this.state.data.name }</p>
              <p className="info">{this.state.data.weather[0].main}</p>
-             <p className="info">{this.state.data.main.temp - 273.15}°C</p>
-             <img className="icon" src={"http://openweathermap.org/img/w/" + this.state.data.weather[0].icon + ".png"}/>
+             <p className="info">{Math.round(this.state.data.main.temp - 273.15)}°C</p>
+             <img className="icon" src={"http://openweathermap.org/img/w/" + this.state.data.weather[0].icon + ".png"} alt="x"/>
            </div>
         )}
       </div>
