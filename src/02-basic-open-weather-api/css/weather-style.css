@@ -1,0 +1,25 @@
+.weather-app {
+  margin: 0 40%;
+  text-align: center;
+  line-height: 0rem;
+  background: var(--panel);
+}
+
+.weather-app p {
+  width: 100%;
+  display: inline-block;
+}
+
+.cityName {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.info { 
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.weather-app img {
+  height: 55px;
+}

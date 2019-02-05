@@ -1,9 +1,12 @@
-.app {
+.realtime-search-app {
   text-align: center; 
 }
 
+.realtime-search-app h1 {
+  margin-bottom: 20px;
+}
+
 .search-bar {
-  margin-top: 2%;
   width: 300px;
   height: 25px;
   padding-left: 10px;
@@ -11,7 +14,7 @@
 
 .list {
   width: 300px;
-  margin: 20px auto;
+  margin: 10px auto;
   padding: 10px;
   line-height: 25px;
 

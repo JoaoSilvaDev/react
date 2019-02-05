@@ -18,9 +18,19 @@ body {
   color: var(--text);
 }
 
-a{  
+a {  
   text-decoration: none;
   color: var(--link);
+}
+
+ul {
+  margin: 0;
+  padding: 15px;
+}
+
+.nav-background {
+  background: var(--panel);
+  margin-bottom: 30px;
 }
 
 .nav-link {

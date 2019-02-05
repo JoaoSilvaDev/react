@@ -18,7 +18,7 @@ I'll be logging my practice here.
 
 ---
 
-_**1/2/19**_
+_**1 Feb 19**_
 
 Tried to build a todo app and failed
 
@@ -28,7 +28,7 @@ Read [Official React Tutorial](https://reactjs.org/tutorial/tutorial.html)
 
 ---
 
-_**2/2/19**_
+_**2 Feb 19**_
 
 Built a realtime search bar that filters an array of strings
 
@@ -39,3 +39,11 @@ Built a homepage to host my projects
 Built a simple Open Weather API app that display the weather in Lisbon.
 
 Read [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
+
+---
+
+_**4 Feb 19**_
+
+Built a responsive table thing that automatically orders info from an object list.
+
+I'll make it get the info from a json file in the next days.

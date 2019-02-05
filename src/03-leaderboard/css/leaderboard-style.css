@@ -1,0 +1,30 @@
+.leaderboard-app {
+  text-align: left;
+  line-height: 1rem;
+}
+
+.leaderboard {
+  margin: 0 60px;
+}
+
+.leaderboard-line {
+  background-color: var(--panel);  
+  display: flex;
+  align-items: stretch;
+}
+
+.leaderboard-cell {
+  flex-grow: 1;
+  line-height: 0.2rem;
+  padding-left: 10px;
+}
+
+.field {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.value {
+  font-size: 1.2rem;
+  color: #fff;
+}

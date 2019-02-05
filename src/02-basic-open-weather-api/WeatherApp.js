@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './css/App.css';
+import './css/weather-style.css';
 
 const api_key = '4ae91ae648f05b04fe3d55778777460c';
 const cityid = '2267057';
@@ -29,7 +29,7 @@ class App extends Component {
   render() {
     console.log(this.state.isLoading);
     return (
-      <div className="app">
+      <div className="weather-app">
         {this.state.isLoading || this.state.data === null ? (
           <h1>Loading...</h1>
         ) : (

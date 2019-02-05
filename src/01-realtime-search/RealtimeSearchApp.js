@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './css/App.css';
+import './css/realtime-search-style.css';
 
 class App extends Component {
   constructor() {
@@ -46,7 +46,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="app">
+      <div className="realtime-search-app">
         <h1>Realtime Search</h1>
         <input type="text" value={this.state.searchInput} onChange={this.handleChange.bind(this)} className="search-bar"/>
         {this.GetList()}
